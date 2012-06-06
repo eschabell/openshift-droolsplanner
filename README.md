@@ -9,11 +9,11 @@ Create an account at http://openshift.redhat.com/
 
 Create a jbossas-7 application
 
-    rhc app create -a planner -t jbossas-7
+    rhc app create -a droolsplanner -t jbossas-7
 
 Add this upstream openshift-droolsplanner repo
 
-    cd planner
+    cd droolsplanner
     git remote add upstream -m master git://github.com/eschabell/openshift-droolsplanner.git
     git pull -s recursive -X theirs upstream master
     # note that the git pull above can be used later to pull updates.
@@ -24,5 +24,5 @@ Then push the repo upstream
 
 That's it, you can now checkout your application at:
 
-    http://planner-$your_domain.rhcloud.com/droolsplanner
+    http://droolsplanner-$your_domain.rhcloud.com/droolsplanner
 
