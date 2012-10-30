@@ -9,7 +9,7 @@ Create an account at http://openshift.redhat.com/
 
 Create a jbossas-7 application
 
-    rhc app create -a droolsplanner -t jbossas-7
+    rhc app create -a droolsplanner -t jbosseap-6.0
 
 Add this upstream openshift-droolsplanner repo
 
