@@ -2,15 +2,11 @@ Drools Planner on OpenShift Express
 ===================================
 Installing the Drools Planner tool on OpenShift was never easier!
 
-Running on OpenShift
---------------------
 
-Create an account at http://openshift.redhat.com/
+Install with one click
+----------------------
+[![Click to install OpenShift](http://launch-shifter.rhcloud.com/launch/light/Click to install.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=jbosseap-6&initial_git_url=https://github.com/eschabell/openshift-droolsplanner.git&name=droolsplanner)
 
-Create a jbossas-7 application
-
-    rhc app create -a droolsplanner -t jbosseap-6.0 --from-code git://github.com/eschabell/openshift-droolsplanner.git
-    
 That's it, you can now checkout your application at:
 
     http://droolsplanner-$your_domain.rhcloud.com/droolsplanner
