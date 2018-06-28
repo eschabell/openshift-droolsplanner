@@ -1,3 +1,6 @@
+Update: June 2018 moved to [Gitlab](https://gitlab.com/eschabell/openshift-droolsplanner)
+
+
 Drools Planner on OpenShift Express
 ===================================
 Installing the Drools Planner tool on OpenShift was never easier!
